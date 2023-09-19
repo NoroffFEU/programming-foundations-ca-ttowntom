@@ -47,6 +47,7 @@ body {
 	min-height: 100vh;
 	min-height: 100svh;
 	font-family: var(--ff-def);
+	font-weight: var(--fw-400);
 	background-color: var(--clr-white);
 	color: var(--clr-black);
 	accent-color: var(--clr-accent);
@@ -77,3 +78,28 @@ ul {
 nav ul li {
 	list-style: none;
 }
+
+/**********************************************
+Global styles
+**********************************************/
+/* ----------Elements---------- */
+h1,
+.subheading {
+	font-weight: var(--fw-800);
+	font-size: 4rem;
+}
+
+.subheading {
+	font-size: 1.5rem;
+}
+
+h2 {
+	font-weight: var(--fw-700);
+	font-size: 1.5rem;
+}
+
+strong {
+	font-weight: var(--fw-600);
+}
+
+/* ----------Sections---------- */
