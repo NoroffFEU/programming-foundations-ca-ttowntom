@@ -1,4 +1,4 @@
-export const smartphone = {
+const smartphone = {
 	brand: {
 		name: "Google",
 		model: "Pixel 7",
@@ -41,8 +41,10 @@ export const smartphone = {
 		],
 	},
 	alertLowBattery: function () {
-		if (phone.battery.capacitymAh < 500) {
+		if (smartphone.battery.capacitymAh < 500) {
 			console.log("Low battery!");
 		}
 	},
 };
+
+export { smartphone };
