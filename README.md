@@ -2,6 +2,9 @@
 
 # Programming Foundations CA
 
+Optional goals -> UI can be found in the index.htmnl file.
+(Could not host on Pages/Netlify due to the repo being owned by a organization)
+
 # Smartphone Object
 
 This JavaScript object represents a smartphone with various properties and functions.
