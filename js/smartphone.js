@@ -42,7 +42,7 @@ const smartphone = {
 	},
 	alertLowBattery: function () {
 		if (smartphone.battery.capacitymAh < 500) {
-			console.log("Low battery!");
+			alert("Low battery!");
 		}
 	},
 };
