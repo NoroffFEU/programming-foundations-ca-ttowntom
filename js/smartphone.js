@@ -4,7 +4,7 @@ const smartphone = {
 		model: "Pixel 7",
 	},
 	os: {
-		name: "Andriod",
+		name: "Android",
 		version: 13,
 	},
 	spesifications: {
