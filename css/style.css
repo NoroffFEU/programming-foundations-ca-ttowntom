@@ -125,6 +125,19 @@ img {
 	margin: 1rem auto 2rem;
 }
 
+button {
+	font-family: inherit;
+	font-weight: var(--fw-600);
+	background-color: var(--clr-white);
+	border: 2px solid var(--clr-accent);
+	border-radius: 0.25rem;
+}
+
+button:is(:hover, :focus, :active) {
+	background-color: var(--clr-accent);
+	cursor: pointer;
+}
+
 /* ----------Sections---------- */
 body {
 	padding: 0 1rem;
@@ -139,6 +152,13 @@ header {
 header,
 main {
 	display: grid;
+}
+
+aside {
+	display: grid;
+	gap: 1rem;
+	grid-template-rows: auto auto 1fr;
+	justify-items: center;
 }
 
 footer {
