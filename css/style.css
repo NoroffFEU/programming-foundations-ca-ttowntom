@@ -122,11 +122,10 @@ h3 {
 }
 
 img {
-	margin: 1rem auto 2rem;
+	margin: 1rem auto;
 }
 
 button {
-	font-family: inherit;
 	font-weight: var(--fw-600);
 	background-color: var(--clr-white);
 	border: 2px solid var(--clr-accent);
@@ -157,8 +156,9 @@ main {
 aside {
 	display: grid;
 	gap: 1rem;
-	grid-template-rows: auto auto 1fr;
+	grid-template-rows: auto auto;
 	justify-items: center;
+	margin-bottom: 2rem;
 }
 
 footer {
@@ -202,6 +202,10 @@ Media queries
 	header *,
 	.content {
 		grid-column: 2 / -1;
+	}
+
+	aside {
+		grid-template-rows: auto auto 1fr;
 	}
 
 	/* ----------Elements---------- */

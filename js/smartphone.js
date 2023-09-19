@@ -41,7 +41,7 @@ const smartphone = {
 		],
 	},
 	alertLowBattery: function () {
-		if (smartphone.spesifications.battery.capacitymAh < 500) {
+		if (smartphone.spesifications.battery.capacitymAh <= 500) {
 			alert("Low battery!");
 		} else {
 			alert("Battery is OK");
