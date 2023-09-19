@@ -1,4 +1,4 @@
-const smartphone = {
+export const smartphone = {
 	brand: {
 		name: "Google",
 		model: "Pixel 7",
