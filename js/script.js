@@ -76,3 +76,8 @@ batteryWirelessChargingContainer.innerHTML = smartphone.spesifications.battery
 	.wirelessCharging
 	? "Yes"
 	: "No";
+
+var checkBatteryButton = document.querySelector("#battery-status");
+checkBatteryButton.addEventListener("click", function () {
+	smartphone.alertLowBattery();
+});
