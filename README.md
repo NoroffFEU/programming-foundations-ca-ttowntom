@@ -2,7 +2,7 @@
 
 # Programming Foundations CA
 
-Optional goals -> UI can be found in the index.htmnl file or at https://pf-thr.netlify.app/
+Optional goals -> UI can be found in the index.html file or at https://pf-thr.netlify.app/
 
 # Smartphone Object
 
